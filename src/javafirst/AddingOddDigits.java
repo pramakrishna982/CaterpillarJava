@@ -7,7 +7,8 @@ public class AddingOddDigits {
 	System.out.println("enter bill amount:");
 	int n =sc.nextInt();
 	int res = 0,r = 0;
-	while(n>0) {
+	while(n>0) 
+	{
 	r=n%10;
 	if((r%2)!=0)
 	res+=r;
